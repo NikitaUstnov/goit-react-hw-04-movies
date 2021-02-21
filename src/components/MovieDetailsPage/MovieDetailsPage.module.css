@@ -1,0 +1,78 @@
+.containerInfo {
+    display: flex;
+    padding: 0;
+}
+
+.containerInfoItem {
+    display: flex;
+}
+
+.containerAboutMovie {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.containerAboutMovie > ul {
+    list-style: none;
+    padding: 0;
+}
+
+.infoMovie {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.subtitle {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 700; 
+}
+
+.description {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.52;
+}
+
+.descriptionGenre {
+    display: inline-flex;
+    white-space: nowrap;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.52;
+}
+
+.containerLink {
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 8px rgba(63, 62, 62, 0.5);
+}
+
+.containerLink > ul {
+    margin: 0;
+}
+
+.titleInfo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.genres {
+    display: flex;
+}
+
+.genresItem + .genresItem {
+    margin-left: 10px;
+}
+
+.title {
+    margin-bottom: 10px;
+}
